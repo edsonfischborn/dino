@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+body {
+  min-height: 500px;
+  height: 80vh;
+  display: grid;
+  place-content: center;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a3a3a;
+}
+
+.section-error__list-title {
+  margin-left: -40px;
+}
+
+.section-error__list-item + .section-error__list-item {
+  margin-top: 5px;
+}
+
+.footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  font-family: "VT323", monospace;
+}
